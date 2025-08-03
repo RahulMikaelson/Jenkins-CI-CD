@@ -1,0 +1,42 @@
+# Ignore compiled classes, build artifacts, and temporary files
+target/
+build/
+.gradle/
+.mvn/
+logs/
+tmp/
+*.log
+*.tmp
+*.class
+
+# Ignore version control system files
+.git
+.gitignore
+.hg
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+
+# Ignore local configuration and sensitive files
+# Add any other files that might contain credentials or environment variables
+.env
+local.properties
+application-local.properties
+
+# Ignore project wrapper scripts and related files
+# These are typically copied explicitly in the Dockerfile if needed
+mvnw
+mvnw.cmd
+gradlew
+gradlew.bat
+
+# Ignore other Docker-related files
+# The Dockerfile and docker-compose files are for building and running, not for the image itself
+Dockerfile
+docker-compose.yml
+docker-compose.yaml
